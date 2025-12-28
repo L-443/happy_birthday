@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>生日快乐！</title>
+  <title>生日快乐，黄顺吉！</title>
 
   <style>
     * {
@@ -203,7 +203,7 @@
   <div id="jsi-cherry-container" class="container ">
     <!-- 爱心 -->
     <canvas id="pinkboard" class="container heart"> </canvas>
-    <div id="input">❤一定要天天开心哟！</div>
+    <div id="input">一定要天天开心哟！</div>
   </div>
   <script>
     // 等待页面加载完成
@@ -261,7 +261,7 @@
     canvas.height = window.innerHeight;
     canvas.width = window.innerWidth;
 
-    var texts = 'I LOVE U'.split('');
+    var texts = 'Play CS Every Day'.split('');
 
     var fontSize = 16;
     var columns = canvas.width / fontSize;
@@ -324,7 +324,7 @@
         if (i !== -1) {
           S.UI.simulate(decodeURI(action).substring(i + 3));
         } else {
-          S.UI.simulate('|#countdown 3|亲爱的|pp|生日快乐！|');
+          S.UI.simulate('|#countdown 3|Vanilla|黄顺吉|生日快乐！|');
         }
         S.Drawing.loop(function () {
           S.Shape.render();
@@ -1228,3 +1228,4 @@
 </body>
 
 </html>
+
